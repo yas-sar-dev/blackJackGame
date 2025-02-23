@@ -1,3 +1,16 @@
 body {
-    background-color: green;
+    background-color: rgb(35, 172, 35);
+    text-align: center;
+}
+
+.blackJackTable {
+    border: 3px solid orangered;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.allPlayers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
