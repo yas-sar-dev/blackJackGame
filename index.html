@@ -8,23 +8,26 @@
 </head>
 <body>
     <h1>LETS PLAY BLACKJACK!!!</h1>
-    <div class="blackJackTable">
-        <div class="Dealer">
-            <h2>Dealer</h2>
-            <h3>Cards:</h3>
+    <div id="blackJackTable">
+        <div id="dealer">
+            <h3>Dealer</h3>
+            <h2 class="dealerCards">Cards:</h2>
+            <h2 class="dealerSum">Sum: </h2>
         </div>
         
-        <div class="allPlayers">
+        <div id="allPlayers">
             <div class="playerOne">
-                <h2>Player One</h2>
-                <h3>Cards:</h3>
+                <h2 class="playerOneCards">Cards: </h2>
+                <h2 class="playerOneSum">Sum: </h2>
                 <button class="playerOneNewCard">NEW CARD</button>
+                <h3>Player One</h3>
             </div>
     
             <div class="playerTwo">
-                <h2>Player Two</h2>
-                <h3>Cards:</h3>
+                <h2 class="playerTwoCards">Cards:</h2>
+                <h2 class="playerTwoSum">Sum: </h2>
                 <button class="playerTwoNewCard">NEW CARD</button>
+                <h3>Player Two</h3>
             </div>
         </div>
         <br>
@@ -35,6 +38,6 @@
 
     </div>
 
-
+    <script src="script.js"></script>
 </body>
 </html>

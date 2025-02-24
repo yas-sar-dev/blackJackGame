@@ -1,23 +1,32 @@
 body {
     background-color: rgb(35, 172, 35);
     text-align: center;
+    padding-top: 10%;
+    max-width: 600px;
+    margin: auto;
 }
 
-.blackJackTable {
-    border: 3px solid orangered;
+#blackJackTable {
+    border: 10px solid orange;
     border-radius: 50%;
-    height: 350px;
+    height: 430px;
     padding-top: 10px;
     padding-bottom: 30px;
+    background: green;
 }
 
-.allPlayers {
+#allPlayers {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#gameFunctions {
-    padding-top: 30px;
+.playerOne, .playerTwo {
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    
+}
 
+#gameFunctions {
+    padding-top: 20px;
 }
